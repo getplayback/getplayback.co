@@ -1,0 +1,118 @@
+// out: ../css/site.css, sourcemap: false, compress: false
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,300");
+
+@base-color: #E86830;
+@base-secondary-color: #E5734C;
+@base-faded-color: #FFA782;
+@accent-color: #219E6C;
+@accent-2: #64C59E;
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.global-light {
+    font-weight: 300;
+}
+
+#splash {
+    background-image: url("../img/splash.jpeg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#splash-title {
+    color: @base-color;
+    font-family: "Pacifico", sans-serif;
+    font-size: 86px;
+}
+
+#splash-subtitle {
+    color: @base-secondary-color;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+#splash-mock {
+    img {
+        width: 100%;
+    }
+}
+
+#copy {
+    background-color: @accent-color;
+    color: white;
+    padding: 100px 20px;
+
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 40px;
+        margin: 50px 0;
+    }
+}
+
+#footer {
+    background-color: @base-color;
+    padding: 50px 20px;
+}
+
+#footer-updates {
+    color: white;
+    padding: 100px 0px;
+}
+
+#footer-updates-form {
+    text-align: center;
+    width: 100%;
+}
+
+#footer-updates-form-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#footer-updates-form-input {
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: white;
+    }
+}
+
+#footer-social {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+    a {
+        color: white;
+        opacity: 0.75;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn.submit-form {
+    background: none;
+    border: 1px solid white;
+    margin-top: 30px;
+
+    &:hover {
+        background-color: white;
+        color: @base-color;
+    }
+}

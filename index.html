@@ -1,31 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Playback: Hear It Again</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="./stylesheets/app.css">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-  <div class="panel">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <div class="intro">
-            <h1>Playback</h1>
-            <a class="button button-primary signup" href="https://docs.google.com/a/stanford.edu/forms/d/1LDJnBKxgvYCNMhfsl6OuUqNwLE_c5Nt5BcMljHkDvHw/viewform">Get notified on launch</a>
-            <!-- <img class="screenshot" src="./images/appstore.svg" /> -->
-
-          </div>
+    <div id="splash" class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="splash-title">Playback</div>
+                    <div id="splash-subtitle">
+                        Playback helps people create <strong>collaborative, in-the-moment spoken memories.</strong>
+                    </div>
+                    <div id="spash-signup">
+                        <form>
+                            <input type="text" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div id="splash-mock">
+                        <img src="assets/img/mock.png" />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="one-half column">
-          <img class="screenshot" src="./images/iphone.png" />
-        </div>
-      </div>
     </div>
-  </div>
+    <div id="copy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <img src="./assets/img/globe.png" style="width: 100%;"/>
+                </div>
+                <div class="col-md-6">
+                    <p>Throughout our journey, we’ve been blown away by the power of audio to help people remember the strength of their relationships. Audio is a natural, invisible way to capture our most important moments.</p>
+                    <p>We’re sharing spoken memories with families and friends around the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-updates" class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-offset-3">
+                    <div id="footer-updates-form">
+                        <div id="footer-updates-form-title" class="global-light">Want to help us bring audio back?</div>
+                        <input id="footer-updates-form-input" type="text" placeholder="Email..."/>
+                        <button class="btn submit-form">Submit</button>
+                    </div>
+                    <div id="footer-social">
+                        <a href="https://instagram.com/getplayback"><i class="fa fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
