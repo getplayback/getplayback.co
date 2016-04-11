@@ -25,6 +25,11 @@ body {
     background-image: url("../img/splash.jpeg");
     background-position: center center;
     background-size: cover;
+    text-shadow: 1px 0px 0px #FFF;
+}
+
+#splash-blurb {
+    margin-bottom: 20px;
 }
 
 #splash-title {
@@ -37,6 +42,20 @@ body {
     color: @base-secondary-color;
     font-size: 20px;
     margin: 30px 0px;
+}
+
+#splash-input {
+    background: fade(@base-color, 80%);
+    border-bottom: 1px solid @base-color;
+    color: white;
+    padding-left: 24px;
+}
+
+#splash-submit {
+    background-color: @base-color;
+    border: none;
+    color: white;
+    padding: 12px 24px;
 }
 
 #splash-mock {
@@ -102,14 +121,30 @@ input {
     background: none;
     border: none;
     border-bottom: 1px solid white;
-    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: left;
     width: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:placeholder-shown {
+        color: @base-faded-color;
+    }
+
+    &::-webkit-input-placeholder {
+        color: white !important;
+    }
 }
 
 .btn.submit-form {
     background: none;
     border: 1px solid white;
     margin-top: 30px;
+    padding: 10px 40px;
 
     &:hover {
         background-color: white;
