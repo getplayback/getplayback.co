@@ -44,18 +44,10 @@ body {
     margin: 30px 0px;
 }
 
-#splash-input {
-    background: fade(@base-color, 80%);
-    border-bottom: 1px solid @base-color;
-    color: white;
-    padding-left: 24px;
-}
-
-#splash-submit {
-    background-color: @base-color;
-    border: none;
-    color: white;
-    padding: 12px 24px;
+#splash-signup {
+    input[type="email"] {
+        background-color: fade(@base-color, 70%);
+    }
 }
 
 #splash-mock {
@@ -84,23 +76,31 @@ body {
 
 #footer-updates {
     color: white;
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 #footer-updates-form {
     text-align: center;
     width: 100%;
+
+    #mc_embed_signup {
+        margin-top: 20px;
+    }
+
+    input[type="submit"] {
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 20px;
+        &:hover {
+            background-color: white;
+            color: @base-color;
+        }
+    }
 }
 
 #footer-updates-form-title {
     font-size: 30px;
     margin-bottom: 10px;
-}
-
-#footer-updates-form-input {
-    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-        color: white;
-    }
 }
 
 #footer-social {
@@ -117,13 +117,13 @@ body {
     }
 }
 
-input {
+input[type="email"] {
     background: none;
     border: none;
     border-bottom: 1px solid white;
     font-size: 20px;
     font-weight: 300;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: left;
     width: 100%;
 
@@ -138,6 +138,16 @@ input {
     &::-webkit-input-placeholder {
         color: white !important;
     }
+}
+
+input[type="submit"] {
+    background: @base-color;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .btn.submit-form {
