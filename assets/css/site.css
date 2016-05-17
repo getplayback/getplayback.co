@@ -21,7 +21,12 @@ body {
 #splash-title {
   color: #E86830;
   font-family: "Pacifico", sans-serif;
-  font-size: 86px;
+  font-size: 35px;
+}
+#splash-header {
+  color: #E86830;
+  font-size: 43px;
+  margin: 30px 0px;
 }
 #splash-subtitle {
   color: #E5734C;
@@ -30,6 +35,9 @@ body {
 }
 #splash-signup input[type="email"] {
   background-color: rgba(232, 104, 48, 0.7);
+}
+#splash-mock {
+  height: 500px;
 }
 #splash-mock img {
   width: 100%;
