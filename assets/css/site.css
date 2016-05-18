@@ -116,19 +116,31 @@ input[type="email"]::-webkit-input-placeholder {
   color: white !important;
 }
 input[type="submit"] {
-  background: #E86830;
+  background: none;
+  border: 1px solid white;
+  margin-top: 30px;
+  padding: 10px 40px;
+  color: white;
+  font-size: 16px;
+  /*background: #E86830;
   border: none;
   color: white;
   font-size: 16px;
   font-weight: 300;
   margin-top: 10px;
-  padding: 10px;
+  padding: 10px;*/
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: #E86830;
+}
+.btn {
+  border-radius: 20px;
 }
 .btn.submit-form {
   background: none;
   border: 1px solid white;
-  margin-top: 30px;
-  padding: 10px 40px;
+  margin-top: 10px;
 }
 .btn.submit-form:hover {
   background-color: white;
