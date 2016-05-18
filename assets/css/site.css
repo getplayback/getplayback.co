@@ -147,3 +147,18 @@ input[type="submit"]:hover {
   background-color: white;
   color: #E86830;
 }
+#howitworks {
+  font-size: 20px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+#howitworks img {
+  width: 180px;
+}
+#howitworks h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  text-align: center;
+}
