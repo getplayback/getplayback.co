@@ -22,6 +22,7 @@ body {
   color: #E86830;
   font-family: "Pacifico", sans-serif;
   font-size: 35px;
+  padding-bottom: 15px;
 }
 #splash-header {
   color: #E86830;
@@ -86,7 +87,7 @@ body {
 }
 #footer-social {
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
 }
 #footer-social a {
@@ -118,7 +119,7 @@ input[type="email"]::-webkit-input-placeholder {
 input[type="submit"] {
   background: none;
   border: 1px solid white;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px 40px;
   color: white;
   font-size: 16px;
