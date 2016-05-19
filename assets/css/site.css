@@ -117,11 +117,11 @@ input[type="email"]::-webkit-input-placeholder {
   color: white !important;
 }
 input[type="submit"] {
-  background: none;
-  border: 1px solid white;
+  background: #f8f4ee;
+  border: 1px solid #E86830;
   margin-top: 20px;
   padding: 10px 40px;
-  color: white;
+  color: #E86830;
   font-size: 16px;
   /*background: #E86830;
   border: none;
@@ -139,14 +139,14 @@ input[type="submit"]:hover {
   border-radius: 20px;
 }
 .btn.submit-form {
-  background: none;
+  background: white;
   border: 1px solid white;
   margin-top: 10px;
 }
-.btn.submit-form:hover {
+/*.btn.submit-form:hover {
   background-color: white;
   color: #E86830;
-}
+}*/
 #howitworks {
   font-size: 20px;
   padding-bottom: 40px;
