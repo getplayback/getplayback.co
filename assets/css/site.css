@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,300");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir", "Open Sans", sans-serif;
+  background-color: #3498db;
+  color: #34495e;
 }
 .jumbotron {
   margin-bottom: 0;
@@ -10,24 +12,23 @@ body {
   font-weight: 300;
 }
 #splash {
-  background-image: url("../img/splash.jpeg");
   background-position: center center;
   background-size: cover;
-  text-shadow: 1px 0px 0px #FFF;
+  <!--text-shadow: 1px 0px 0px #FFF;-->
 }
 #splash-blurb {
   margin-bottom: 20px;
 }
-#splash-title {
-  color: #E86830;
-  font-family: "Pacifico", sans-serif;
-  font-size: 35px;
-  padding-bottom: 15px;
+
+#splash-title img {
+  width: 200px;
+  margin-top: 40px;
+  margin-left: -120px;
 }
 #splash-header {
-  color: #E86830;
-  font-size: 45px;
-  margin-top: 30px;
+  color: #FEFEFE;
+  font-size: 50px;
+  margin-top: 130px;
   margin-bottom: 10px;
   font-weight: lighter;
 }
@@ -38,16 +39,16 @@ body {
   font-weight: lighter;
 }
 #splash-signup input[type="email"] {
-  background-color: rgba(232, 104, 48, 0.7);
+  background-color: #34495e;
 }
 #splash-mock {
-  height: 500px;
+  margin-top: 100px;
+  width: 320px;
 }
 #splash-mock img {
   width: 100%;
 }
 #copy {
-  background-color: #219E6C;
   color: white;
   padding: 100px 20px;
 }
@@ -57,8 +58,13 @@ body {
   line-height: 40px;
   margin: 50px 0;
 }
+
+#copy img {
+  width: 500px;
+  padding-top: 20px;
+}
 #footer {
-  background-color: #E86830;
+  background-color: #34495e;
   padding: 50px 20px;
 }
 #footer-updates {
@@ -118,10 +124,10 @@ input[type="email"]::-webkit-input-placeholder {
 }
 input[type="submit"] {
   background: #f8f4ee;
-  border: 1px solid #E86830;
+  border: 1px solid #34495e;
   margin-top: 20px;
   padding: 10px 40px;
-  color: #E86830;
+  color: #34495e;
   font-size: 16px;
   /*background: #E86830;
   border: none;
@@ -133,7 +139,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: white;
-  color: #E86830;
+  color: #34495e;
 }
 .btn {
   border-radius: 20px;
@@ -149,11 +155,12 @@ input[type="submit"]:hover {
 }*/
 #howitworks {
   font-size: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+  padding-top: 20px;
   text-align:center;
 }
 #howitworks img {
-  width: 180px;
+  width: 300px;
 }
 #howitworks h1 {
   font-size: 45px;
@@ -161,4 +168,11 @@ input[type="submit"]:hover {
   font-weight: lighter;
   padding-bottom: 40px;
   text-align: center;
+}
+
+#summary {
+  text-align: center;
+  width: 50%;
+  padding-top: 300px;
+  margin: 0 auto;
 }
